@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/lint-preset-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/lint-preset-ts": "*",
+    "@osdoc-dev/lint-preset-ts": "^0.1.0",
     "eslint-plugin-react": "^7.22.0"
   },
   "devDependencies": {
