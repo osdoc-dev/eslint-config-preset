@@ -1,0 +1,27 @@
+{
+  "name": "@osdoc-dev/lint-preset",
+  "version": "0.0.1",
+  "description": "lint preset",
+  "main": "index.js",
+  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@osdoc-dev/lint-preset-react": "*",
+    "@osdoc-dev/lint-preset-vue": "*"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

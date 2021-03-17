@@ -1,0 +1,36 @@
+{
+  "name": "@osdoc-dev/lint-preset-basic",
+  "version": "0.0.1",
+  "description": "basic config",
+  "main": "index.js",
+  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsonc": "^1.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-unicorn": "^28.0.2",
+    "eslint-plugin-yml": "^0.8.1",
+    "jsonc-eslint-parser": "^1.0.1",
+    "yaml-eslint-parser": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

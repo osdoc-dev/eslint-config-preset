@@ -1,0 +1,28 @@
+{
+  "name": "@osdoc-dev/lint-preset-react",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@osdoc-dev/lint-preset-ts": "*",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "react": "^17.0.1",
+    "typescript": "^4.2.3"
+  }
+}

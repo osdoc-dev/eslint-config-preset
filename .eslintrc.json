@@ -1,0 +1,3 @@
+{
+  "extends": "@osdoc-dev/lint-preset"
+}
