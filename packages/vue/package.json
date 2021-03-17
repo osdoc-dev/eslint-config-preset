@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/lint-preset-vue",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/lint-preset-ts": "^0.2.0",
+    "@osdoc-dev/lint-preset-ts": "^0.3.0",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {

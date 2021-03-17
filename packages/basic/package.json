@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/lint-preset-basic",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "basic config",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
