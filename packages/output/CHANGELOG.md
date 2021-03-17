@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/osdoc-dev/lint-preset/compare/v0.1.0...v0.2.0) (2021-03-17)
+
+
+### Features
+
+* update ([a91d64d](https://github.com/osdoc-dev/lint-preset/commit/a91d64d19ea00ba78dad5e5f68e65196fd8c623f))
+
+
+
+
+
 # 0.1.0 (2021-03-17)
 
 
