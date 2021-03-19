@@ -2,5 +2,8 @@
  * export all
  */
 module.exports = {
-  extends: ['@osdoc-dev/lint-preset-react', '@osdoc-dev/lint-preset-vue'],
+  extends: [
+    '@osdoc-dev/eslint-config-preset-react',
+    '@osdoc-dev/eslint-config-preset-vue',
+  ],
 };

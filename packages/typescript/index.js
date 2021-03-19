@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@osdoc-dev/lint-preset-basic',
+    '@osdoc-dev/eslint-config-preset-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {

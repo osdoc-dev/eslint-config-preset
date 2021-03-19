@@ -1,6 +1,6 @@
 {
-  "name": "@osdoc-dev/lint-preset-basic",
-  "version": "0.3.0",
+  "name": "@osdoc-dev/eslint-config-preset-basic",
+  "version": "0.0.1",
   "description": "basic config",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
@@ -18,6 +18,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "eslint": "^7.22.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
