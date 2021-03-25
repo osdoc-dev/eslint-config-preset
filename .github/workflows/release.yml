@@ -19,5 +19,5 @@ jobs:
     - run: npm run bootstrap
     - run: npm run release
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_CI_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       
