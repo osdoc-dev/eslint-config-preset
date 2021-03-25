@@ -8,12 +8,12 @@ module.exports = {
     node: true,
   },
   extends: [
-    'standard',
+    'airbnb',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
+    'plugin:yml/airbnb',
   ],
   plugins: ['html', 'unicorn'],
   settings: {

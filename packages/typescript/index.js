@@ -3,6 +3,9 @@ module.exports = {
     '@osdoc-dev/eslint-config-preset-basic',
     'plugin:@typescript-eslint/recommended',
   ],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+
   rules: {
     // TS
     'no-useless-constructor': 'off',

@@ -5,12 +5,13 @@
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "private": true,
   "scripts": {
-    "release": "lerna publish --conventional-commits",
+    "release": "lerna publish --conventional-commits --yes",
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
+    "@osdoc-dev/eslint-config-preset": "0.0.3",
+    "eslint": "^7.22.0",
     "lerna": "^3.22.1",
-    "@osdoc-dev/eslint-config-preset": "*",
-    "eslint": "^7.22.0"
+    "typescript": "^4.2.3"
   }
 }

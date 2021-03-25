@@ -17,13 +17,12 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-ts": "^0.0.2",
+    "@osdoc-dev/eslint-config-preset-ts": "*",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0"
   },
   "devDependencies": {
     "eslint": "^7.22.0",
-    "react": "^17.0.1",
-    "typescript": "^4.2.3"
+    "react": "^17.0.1"
   }
 }

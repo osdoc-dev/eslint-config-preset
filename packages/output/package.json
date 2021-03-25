@@ -18,8 +18,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-react": "^0.0.2",
-    "@osdoc-dev/eslint-config-preset-vue": "^0.0.2",
+    "@osdoc-dev/eslint-config-preset-react": "*",
+    "@osdoc-dev/eslint-config-preset-vue": "*",
     "eslint": "^7.22.0"
   },
   "devDependencies": {

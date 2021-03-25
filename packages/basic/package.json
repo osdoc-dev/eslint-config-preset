@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "eslint": "^7.22.0",
-    "eslint-config-standard": "^16.0.2",
+    "eslint-config-airbnb": "^16.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
