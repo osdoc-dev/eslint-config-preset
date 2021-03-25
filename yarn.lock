@@ -1134,13 +1134,13 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.2"
 
-"@osdoc-dev/eslint-config-preset-basic@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-basic/-/eslint-config-preset-basic-0.0.2.tgz#7c9fb55d0445c200db9fb0a108f7ab290977f6c9"
-  integrity sha512-pedgdZd7JNbe+ogtRW3lseAieObgvZASddOqMAG+WtM4IaTtsM1aXqTg1DwVlWkRm79kcLgvSXOm71BK+WfS6g==
+"@osdoc-dev/eslint-config-preset-basic@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-basic/-/eslint-config-preset-basic-0.0.8.tgz#0e0274d779aaaf78ba00fb3f0dfe161cae9aa95c"
+  integrity sha512-R+8RrctELQRkO5cLUZfL3GID6zyPQLV4M+9yT5Njfvp+++KKPhpH4PaEEYejv6PXXu8YqGROleCOOMMKcveenw==
   dependencies:
     eslint "^7.22.0"
-    eslint-config-standard "^16.0.2"
+    eslint-config-airbnb "^16.0.2"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-html "^6.1.2"
     eslint-plugin-import "^2.22.1"
@@ -1152,41 +1152,42 @@
     jsonc-eslint-parser "^1.0.1"
     yaml-eslint-parser "^0.3.2"
 
-"@osdoc-dev/eslint-config-preset-react@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-react/-/eslint-config-preset-react-0.0.2.tgz#69b3199a518ac171227c3b902ff3437df7f1103a"
-  integrity sha512-QY+oaeBIGilDpwiF6s33/s3+MUlqUI38QA5QQw7arpuuOxqeJShuhBF+1WW+oz1myilYmXXZfMCILGQ9zdJTLQ==
+"@osdoc-dev/eslint-config-preset-react@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-react/-/eslint-config-preset-react-0.0.8.tgz#9677760b793fe89ce69e4b17ee5ea1a147026437"
+  integrity sha512-+0+Qdwu8z8QGi0HBYNFsdt7y6FSglWAAs8BchYeFnfoPfnl/wePT4dhvURVCsM4FYSWzc1taL4k0kLqyO/kfhA==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-ts" "^0.0.2"
+    "@osdoc-dev/eslint-config-preset-ts" "^0.0.8"
     eslint "^7.22.0"
     eslint-plugin-react "^7.22.0"
 
-"@osdoc-dev/eslint-config-preset-ts@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-ts/-/eslint-config-preset-ts-0.0.2.tgz#5df17e17e468fa9cf5c91fee4fcd7897b0fba8ea"
-  integrity sha512-DyR8O77I8Zhrn22zIs2BbEj21mKh2S+2zCIDOyRE7SbarvouAb1+xJCjd4CUmHeVO1IshU6ETTs5yiesZ72WbA==
+"@osdoc-dev/eslint-config-preset-ts@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-ts/-/eslint-config-preset-ts-0.0.8.tgz#9e15c7785c53779a42ab3b2350d8581af0efb96c"
+  integrity sha512-MaNrUrk3TkarfPAd7fWCmfSApdhTGYXcsy9nj868HaCm2RZjNAmiMzhyUwRgSrLU59hjW8zCutLuOpCQjDur6Q==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-basic" "^0.0.2"
+    "@osdoc-dev/eslint-config-preset-basic" "^0.0.8"
     "@typescript-eslint/eslint-plugin" "^4.17.0"
     "@typescript-eslint/parser" "^4.17.0"
     eslint "^7.22.0"
+    typescript "4.2.3"
 
-"@osdoc-dev/eslint-config-preset-vue@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-vue/-/eslint-config-preset-vue-0.0.2.tgz#76a2597badfeededa2fa0287c432b1f9e0f5bc66"
-  integrity sha512-nMRZdmKDfC1zCOx4j/DazMB38Z2LMwdZYTAVUJQIn5dwx5eZI8C99cvEaqaYkaBLBS9PjumS0Ks6Gaot8spF5w==
+"@osdoc-dev/eslint-config-preset-vue@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-vue/-/eslint-config-preset-vue-0.0.8.tgz#14cf313cd3a0e2536acdc10186b56d219d957c4b"
+  integrity sha512-uL2NO659EuWTdu5Der5CeR803dVrrRcKD441n6Ozlgljc5/deZ7zcIrO3G6dZjVDj9YmcLMqjmkAIJHVOrjybA==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-ts" "^0.0.2"
+    "@osdoc-dev/eslint-config-preset-ts" "^0.0.8"
     eslint "^7.22.0"
     eslint-plugin-vue "7.7.0"
 
-"@osdoc-dev/eslint-config-preset@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset/-/eslint-config-preset-0.0.2.tgz#7f39de08cceec5c1480c30686a66125bb0b56237"
-  integrity sha512-ZXAVEKZsi95a6rFIGVW/q0Sppd5bkUntCDrubXVFl21YmZTlWIXO6Vq04mVA/d5+ucMwbiUf4lEy6gewYrulSA==
+"@osdoc-dev/eslint-config-preset@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset/-/eslint-config-preset-0.0.8.tgz#e05e485c34f3572fd9f39084aa01dcfecfb28bf2"
+  integrity sha512-KIXAznC2OzduAaBj6EBmKbseUv0Z6YAMn+Zxj4uKbR83SAMPcFr/YzI/cZNaDtnHA5lSqTJUvzWvqCv+NUMbLA==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-react" "^0.0.2"
-    "@osdoc-dev/eslint-config-preset-vue" "^0.0.2"
+    "@osdoc-dev/eslint-config-preset-react" "^0.0.8"
+    "@osdoc-dev/eslint-config-preset-vue" "^0.0.8"
     eslint "^7.22.0"
 
 "@types/glob@^7.1.1":
@@ -2523,10 +2524,19 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-standard@^16.0.2:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.2.tgz#71e91727ac7a203782d0a5ca4d1c462d14e234f6"
-  integrity sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==
+eslint-config-airbnb-base@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-12.1.0.tgz#386441e54a12ccd957b0a92564a4bafebd747944"
+  integrity sha512-/vjm0Px5ZCpmJqnjIzcFb9TKZrKWz0gnuG/7Gfkt0Db1ELJR51xkZth+t14rYdqWgX836XbuxtArbIHlVhbLBA==
+  dependencies:
+    eslint-restricted-globals "^0.1.1"
+
+eslint-config-airbnb@^16.0.2:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-16.1.0.tgz#2546bfb02cc9fe92284bf1723ccf2e87bc45ca46"
+  integrity sha512-zLyOhVWhzB/jwbz7IPSbkUuj7X2ox4PHXTcZkEmDqTvd0baJmJyuxlFPDlZOE/Y5bC+HQRaEkT3FoHo9wIdRiw==
+  dependencies:
+    eslint-config-airbnb-base "^12.1.0"
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -2668,6 +2678,11 @@ eslint-plugin-yml@^0.8.1:
     lodash "^4.17.19"
     natural-compare "^1.4.0"
     yaml-eslint-parser "^0.3.2"
+
+eslint-restricted-globals@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-restricted-globals/-/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
+  integrity sha1-NfDVy8ZMLj7WLpO0saevBbp+1Nc=
 
 eslint-scope@5.1.0:
   version "5.1.0"
@@ -6394,7 +6409,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.2.3:
+typescript@4.2.3, typescript@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==

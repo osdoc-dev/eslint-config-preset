@@ -13,7 +13,7 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/airbnb',
+    'plugin:yml/recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
@@ -85,7 +85,7 @@ module.exports = {
     semi: ['error', 'never'],
     curly: ['error', 'multi-or-nest', 'consistent'],
     quotes: ['error', 'single'],
-    'quote-props': ['error', 'consistent-as-needed'],
+    'quote-props': ['error', 'as-needed'],
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
