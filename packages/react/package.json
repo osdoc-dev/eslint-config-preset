@@ -17,7 +17,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-ts": "^0.0.6",
+    "@osdoc-dev/eslint-config-preset-ts": "*",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0"
   },
