@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.9 (2021-03-25)
+
+
+### Bug Fixes
+
+* fix yml plugin ([b53687b](https://github.com/osdoc-dev/eslint-config-preset/commit/b53687be8ff92c3a24fb62f76473245e8ada40a3))
+
+
+
+
+
 ## 0.0.8 (2021-03-25)
 
 **Note:** Version bump only for package @osdoc-dev/eslint-config-preset
