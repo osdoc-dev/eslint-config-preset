@@ -14,6 +14,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/recommended',
+    'plugin:unicorn/recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
