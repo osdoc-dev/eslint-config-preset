@@ -20,7 +20,8 @@
     "@osdoc-dev/eslint-config-preset-ts": "^0.1.1",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.1.2"
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-jsx-a11y ": "6.4.1"
   },
   "devDependencies": {
     "eslint": "^7.22.0",

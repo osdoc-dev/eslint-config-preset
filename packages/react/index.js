@@ -4,7 +4,7 @@ module.exports = {
     '@osdoc-dev/eslint-config-preset-ts',
     'prettier/react',
   ],
-  plugins: ['react-hooks'],
+  plugins: ['react-hooks', 'jsx-a11y'],
   settings: {
     react: {
       version: '17.0',
