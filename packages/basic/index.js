@@ -194,10 +194,7 @@ module.exports = {
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
     'unicorn/expiring-todo-comments': 'off',
-    'no-use-before-define': [
-      'error',
-      { functions: false, classes: false, variables: true },
-    ],
+    'no-use-before-define': 0,
     'eslint-comments/disable-enable-pair': 'off',
   },
 };

@@ -7,5 +7,6 @@ module.exports = {
   },
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
+    'react/jsx-filename-extension': 0,
   },
 };
