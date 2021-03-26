@@ -5,7 +5,6 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-
   rules: {
     // TS
     'no-useless-constructor': 'off',

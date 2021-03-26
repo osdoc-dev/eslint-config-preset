@@ -1134,10 +1134,10 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.2"
 
-"@osdoc-dev/eslint-config-preset-basic@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-basic/-/eslint-config-preset-basic-0.0.9.tgz#3d653032ca02518a82793f8b19a236638623ea94"
-  integrity sha512-lGNxb8zkBOnGagTxs0iYPsIilIa2/baOEsCp8bgm0rhec875hkp107qUxk9GSjqQYywS8gVi5raIFZo37fpB+g==
+"@osdoc-dev/eslint-config-preset-basic@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-basic/-/eslint-config-preset-basic-0.0.10.tgz#287f4a9c24a5f4220eb63d4fd7f347e1c9a78893"
+  integrity sha512-c0+TOSVWKZXcdwRUj9dImnHNjds2FM8teEC1M6Jr/iwQXBIE5nEy72gLEr3RxZH2CPdnzf0sUTUgmxEFnH1q5Q==
   dependencies:
     eslint "^7.22.0"
     eslint-config-airbnb "^16.0.2"
@@ -1152,42 +1152,42 @@
     jsonc-eslint-parser "^1.0.1"
     yaml-eslint-parser "^0.3.2"
 
-"@osdoc-dev/eslint-config-preset-react@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-react/-/eslint-config-preset-react-0.0.9.tgz#b9df50efe30eda2d43457dc8aa28bc93b459f719"
-  integrity sha512-rs+QI9AnDcgQJgdoUHVX3GTjTMJm1MtzYNH05RaDnfjXvLXVJQpK6W5Vh3F8bv1ulPwvi6MXSNBgIC6EcjRf7w==
+"@osdoc-dev/eslint-config-preset-react@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-react/-/eslint-config-preset-react-0.0.10.tgz#a05af4b1e1a4aa72221408062577613eb7e16da1"
+  integrity sha512-DsM2qKwNO9J6UhX5DD3XAipOA3/tU3ZYryLEx7n/pXT7pifRdZloxFEsYR+D1CD9+L7GkYZZrCaGFzDay5S/dA==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-ts" "^0.0.9"
+    "@osdoc-dev/eslint-config-preset-ts" "^0.0.10"
     eslint "^7.22.0"
     eslint-plugin-react "^7.22.0"
 
-"@osdoc-dev/eslint-config-preset-ts@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-ts/-/eslint-config-preset-ts-0.0.9.tgz#36a591ae9c6cabf9cc5de5ef5ef6046af26d4eaf"
-  integrity sha512-CKCkWul28T/q4mBTYZi+dFnHK4hS+71iPlTR+ZLQzk2r2AwBwqRpY+OjOJPxVxyBRUJMA4OT2EbBxvA3gL7j+g==
+"@osdoc-dev/eslint-config-preset-ts@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-ts/-/eslint-config-preset-ts-0.0.10.tgz#3fbb215c53f3d1b7d1248f23168c5c0497ae54e5"
+  integrity sha512-wdjg3dGdX30TE4CMg+r1DSlBkcCP+52/b5vfhbaskeInUsLRwj5PXULl+pYH6+OlGct2jSrBR6y5BOHCTanARg==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-basic" "^0.0.9"
+    "@osdoc-dev/eslint-config-preset-basic" "^0.0.10"
     "@typescript-eslint/eslint-plugin" "^4.17.0"
     "@typescript-eslint/parser" "^4.17.0"
     eslint "^7.22.0"
     typescript "4.2.3"
 
-"@osdoc-dev/eslint-config-preset-vue@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-vue/-/eslint-config-preset-vue-0.0.9.tgz#f8dd4da974b58546f2cd2690f39d2f5c4b17ae84"
-  integrity sha512-KS1o0llr7Ig8y9lwCMG6vyRWSQnbkY6+/uL9Rax0DpMJcNIpxx/qI4eA3COShb4d59wDarVvi8lkHCmB/Qe26w==
+"@osdoc-dev/eslint-config-preset-vue@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset-vue/-/eslint-config-preset-vue-0.0.10.tgz#cd89b083a6fca9c9fc2696038a0e575f378cbe7f"
+  integrity sha512-xkY8ZBII1+tZCEsUF2x/jPrJDH8WmGXI5m69QFGT+DwrHGBfGDXI+oXTyxcXhQnh23PQdfAkVfhP+iu/7pcucw==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-ts" "^0.0.9"
+    "@osdoc-dev/eslint-config-preset-ts" "^0.0.10"
     eslint "^7.22.0"
     eslint-plugin-vue "7.7.0"
 
-"@osdoc-dev/eslint-config-preset@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset/-/eslint-config-preset-0.0.9.tgz#ee1e9e95f9e5bcb66897ddd4f22a65e701184119"
-  integrity sha512-tv2HqueYpkG6MrN6efKg/kp2sc7dcU5+VtyUWAvgJg8cS3okiQe8ALNZXZA9f+Rb/culeTpEVAuxLSIxKSx8Iw==
+"@osdoc-dev/eslint-config-preset@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@osdoc-dev/eslint-config-preset/-/eslint-config-preset-0.0.10.tgz#0806321e33f0c1cc88c53578a7748556009127b7"
+  integrity sha512-LLYnf2+sQ/QHdbs+nRhhn8OkNE/P2j+0DOHUsh5MHnUL5z5k6xPwL2uQw+9apTKd+Q59aj4hRXt4lRxz/SFo/A==
   dependencies:
-    "@osdoc-dev/eslint-config-preset-react" "^0.0.9"
-    "@osdoc-dev/eslint-config-preset-vue" "^0.0.9"
+    "@osdoc-dev/eslint-config-preset-react" "^0.0.10"
+    "@osdoc-dev/eslint-config-preset-vue" "^0.0.10"
     eslint "^7.22.0"
 
 "@types/glob@^7.1.1":

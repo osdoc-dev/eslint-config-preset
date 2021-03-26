@@ -9,7 +9,7 @@
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
-    "@osdoc-dev/eslint-config-preset": "^0.0.9",
+    "@osdoc-dev/eslint-config-preset": "^0.0.10",
     "eslint": "^7.22.0",
     "lerna": "^3.22.1",
     "typescript": "^4.2.3"
