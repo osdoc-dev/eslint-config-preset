@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.12 (2021-03-26)
+
+
+### Bug Fixes
+
+* remove ts ([dc1f40d](https://github.com/osdoc-dev/eslint-config-preset/commit/dc1f40d2c2f187b337cfe00b25583bf54f6c0416))
+
+
+
+
+
 ## 0.0.11 (2021-03-26)
 
 
