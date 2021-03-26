@@ -15,6 +15,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/recommended',
     'plugin:unicorn/recommended',
+    'prettier'
   ],
   plugins: ['html', 'unicorn'],
   settings: {
