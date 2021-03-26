@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.11 (2021-03-26)
+
+
+### Bug Fixes
+
+* unicorn version ([1ae1458](https://github.com/osdoc-dev/eslint-config-preset/commit/1ae14589e57881e13266e66513ee824293518480))
+
+
+
+
+
 ## 0.0.10 (2021-03-25)
 
 
