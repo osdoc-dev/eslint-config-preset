@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-vue",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-ts": "^0.0.12",
+    "@osdoc-dev/eslint-config-preset-ts": "^0.0.13",
     "eslint": "^7.22.0",
     "eslint-plugin-vue": "7.7.0"
   },

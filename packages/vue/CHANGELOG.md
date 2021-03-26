@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.13 (2021-03-26)
+
+
+### Bug Fixes
+
+* fix unicorn/expiring-todo-comments rules ([8ab5532](https://github.com/osdoc-dev/eslint-config-preset/commit/8ab553281a0e62b3e930b57b20a331e077f986df))
+
+
+
+
+
 ## 0.0.12 (2021-03-26)
 
 
