@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "lint preset",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
@@ -18,8 +18,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-react": "^0.0.13",
-    "@osdoc-dev/eslint-config-preset-vue": "^0.0.13",
+    "@osdoc-dev/eslint-config-preset-react": "^0.1.0",
+    "@osdoc-dev/eslint-config-preset-vue": "^0.1.0",
     "eslint": "^7.22.0"
   },
   "devDependencies": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2021-03-26)
+
+
+### Features
+
+* update rules ([0c6f9cd](https://github.com/osdoc-dev/eslint-config-preset/commit/0c6f9cd077210d361ada4dff0604b289fa15a8ae))
+
+
+
+
+
 ## 0.0.13 (2021-03-26)
 
 
