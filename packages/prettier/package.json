@@ -1,7 +1,7 @@
 {
-  "name": "@osdoc-dev/eslint-config-preset",
+  "name": "@osdoc-dev/eslint-config-preset-prettier",
   "version": "0.0.13",
-  "description": "lint preset",
+  "description": "lint preset with prettier",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
