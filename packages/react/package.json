@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-ts": "^0.1.0",
+    "@osdoc-dev/eslint-config-preset-ts": "^0.1.1",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.1.2"
