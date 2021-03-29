@@ -1,6 +1,4 @@
-/**
- * basic config
- */
+/** Basic config */
 module.exports = {
   env: {
     es6: true,
@@ -15,7 +13,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/recommended',
     'plugin:unicorn/recommended',
-    'prettier'
+    'prettier',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
