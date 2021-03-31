@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.3 (2021-03-31)
+
+
+### Bug Fixes
+
+* style prettier ([89e7eed](https://github.com/osdoc-dev/eslint-config-preset/commit/89e7eed80559fb4e122c5c88d84cd0e0a5558c0a))
+
+
+
+
+
 ## 0.2.2 (2021-03-31)
 
 
