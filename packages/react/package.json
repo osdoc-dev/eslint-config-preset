@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",

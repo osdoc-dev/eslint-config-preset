@@ -1,6 +1,8 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.2.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.2.2",
   "changelog": {
     "labels": {
       "tag: new feature": ":rocket: New Feature",

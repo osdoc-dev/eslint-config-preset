@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-basic",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "basic config",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
@@ -25,6 +25,7 @@
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsonc": "^1.2.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.3.1",
@@ -33,8 +34,7 @@
     "jsonc-eslint-parser": "^1.0.1",
     "prettier": "^2.2.0",
     "prettier-plugin-jsdoc": "^0.3.0",
-    "yaml-eslint-parser": "^0.3.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1"
+    "yaml-eslint-parser": "^0.3.2"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
