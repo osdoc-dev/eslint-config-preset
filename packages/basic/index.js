@@ -166,8 +166,6 @@ module.exports = {
     'vars-on-top': 'error',
     'require-await': 'off',
     'no-return-assign': 'off',
-    'operator-linebreak': ['error', 'before'],
-
     // unicorns
     // Pass error message when throwing errors
     'unicorn/error-message': 'error',
@@ -196,5 +194,11 @@ module.exports = {
     'unicorn/expiring-todo-comments': 'off',
     'no-use-before-define': 0,
     'eslint-comments/disable-enable-pair': 'off',
+    'import/prefer-default-export': 0,
+    'unicorn/no-process-exit': 0,
+    'import/extensions': 'off',
+    'operator-linebreak': 0,
+    'unicorn/no-null': 0,
+    'no-unused-expressions': 0,
   },
 };
