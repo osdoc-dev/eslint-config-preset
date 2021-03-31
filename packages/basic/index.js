@@ -14,6 +14,7 @@ module.exports = {
     'plugin:yml/recommended',
     'plugin:unicorn/recommended',
     'prettier',
+    'plugin:jsx-a11y/recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {

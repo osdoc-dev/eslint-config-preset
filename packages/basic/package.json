@@ -33,7 +33,8 @@
     "jsonc-eslint-parser": "^1.0.1",
     "prettier": "^2.2.0",
     "prettier-plugin-jsdoc": "^0.3.0",
-    "yaml-eslint-parser": "^0.3.2"
+    "yaml-eslint-parser": "^0.3.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
