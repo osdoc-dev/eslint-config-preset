@@ -9,7 +9,7 @@ module.exports = {
     // TS
     'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
-    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/indent': 0,
     '@typescript-eslint/member-delimiter-style': [
       'error',
       { multiline: { delimiter: 'none' } },
