@@ -1,6 +1,10 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-ts",
+<<<<<<< HEAD
   "version": "0.3.0",
+=======
+  "version": "0.2.4",
+>>>>>>> 4ed5d4610aa7a026b4d91bb851e318251aec372d
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
@@ -15,7 +19,11 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@osdoc-dev/eslint-config-preset-basic": "^0.3.0",
+=======
+    "@osdoc-dev/eslint-config-preset-basic": "^0.2.4",
+>>>>>>> 4ed5d4610aa7a026b4d91bb851e318251aec372d
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "eslint": "^7.22.0"
