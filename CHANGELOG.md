@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.1 (2021-07-08)
+
+
+### Bug Fixes
+
+* fix commit ([7f613f0](https://github.com/osdoc-dev/eslint-config-preset/commit/7f613f05f75b873b4eb12fd578c120064eb45a43))
+
+
+
+
+
 # [0.3.0](https://github.com/osdoc-dev/lint-preset/compare/v0.2.3...v0.3.0) (2021-07-08)
 
 ### Features
