@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-unicorn": "^29.0.0",
     "eslint-plugin-yml": "^0.8.1",
-    "jsonc-eslint-parser": "1.1.0",
+    "jsonc-eslint-parser": "1.0.0",
     "prettier": "^2.2.0",
     "prettier-plugin-jsdoc": "^0.3.0",
     "yaml-eslint-parser": "^0.3.2"
