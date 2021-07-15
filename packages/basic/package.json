@@ -17,6 +17,9 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
+  "resolutions": {
+    "eslint-visitor-keys": "2.1.0"
+  },
   "dependencies": {
     "eslint": "^7.22.0",
     "eslint-config-airbnb": "^16.0.2",
