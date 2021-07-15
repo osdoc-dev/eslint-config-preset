@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2021-07-15)
+
+
+### Features
+
+* update lock ([7b51898](https://github.com/osdoc-dev/eslint-config-preset/commit/7b51898e1bb1786ee68af5ed5950eeeb5f47972a))
+
+
+
+
+
 ## 0.3.5 (2021-07-15)
 
 
