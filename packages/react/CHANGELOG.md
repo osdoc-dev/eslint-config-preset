@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.3 (2021-07-15)
+
+
+### Bug Fixes
+
+* fix jsonc-eslint-parser version to v1.0.0 ([9cc810b](https://github.com/osdoc-dev/eslint-config-preset/commit/9cc810b90d18e2ead2b160ccf20a447dd8b43b84))
+
+
+
+
+
 ## 0.3.2 (2021-07-14)
 
 
