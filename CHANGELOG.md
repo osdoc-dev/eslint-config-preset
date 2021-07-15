@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.4 (2021-07-15)
+
+
+### Bug Fixes
+
+* fix eslint-visitor-keys version ([8176cf1](https://github.com/osdoc-dev/eslint-config-preset/commit/8176cf19f8ebbfd5de6f700c0cb9630ad46346eb))
+
+
+
+
+
 ## 0.3.3 (2021-07-15)
 
 
