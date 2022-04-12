@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "basic config",
   "main": "index.js",
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
