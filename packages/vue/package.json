@@ -14,8 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-ts": "^0.4.0",
-    "eslint": "^7.22.0",
+    "@osdoc-dev/eslint-config-preset-ts": "workspace:*",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {

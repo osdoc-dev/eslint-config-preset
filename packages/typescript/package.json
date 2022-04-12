@@ -15,10 +15,9 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@osdoc-dev/eslint-config-preset-basic": "^0.4.0",
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
-    "eslint": "^7.22.0"
+    "@osdoc-dev/eslint-config-preset-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
