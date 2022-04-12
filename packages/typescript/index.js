@@ -8,7 +8,7 @@ module.exports = {
   rules: {
     // TS
     'no-useless-constructor': 'off',
-    '@typescript-eslint/semi': ['error', 'never'],
+    '@typescript-eslint/semi': 0,
     '@typescript-eslint/indent': 0,
     '@typescript-eslint/member-delimiter-style': [
       'error',
@@ -36,4 +36,4 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-use-before-define': 2,
   },
-};
+}

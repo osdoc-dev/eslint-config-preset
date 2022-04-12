@@ -16,7 +16,24 @@ module.exports = {
     'prettier',
     'plugin:jsx-a11y/recommended',
   ],
-  plugins: ['html', 'unicorn'],
+  ignorePatterns: [
+    '*.min.*',
+    'CHANGELOG.md',
+    'dist',
+    'LICENSE*',
+    'output',
+    'coverage',
+    'public',
+    'temp',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '__snapshots__',
+    '!.github',
+    '!.vitepress',
+    '!.vscode',
+  ],
+  plugins: ['html', 'unicorn', 'prettier'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
@@ -30,6 +47,13 @@ module.exports = {
         quotes: ['error', 'double'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
+      },
+    },
+    {
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser',
+      rules: {
+        'spaced-comment': 'off',
       },
     },
     {
@@ -73,6 +97,47 @@ module.exports = {
         ],
       },
     },
+    {
+      // Code blocks in markdown file
+      files: ['**/*.md/*.*'],
+      rules: {
+        '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        'import/no-unresolved': 'off',
+        'no-alert': 'off',
+        'no-console': 'off',
+        'no-restricted-imports': 'off',
+        'no-undef': 'off',
+        'no-unused-expressions': 'off',
+        'no-unused-vars': 'off',
+      },
+    },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['scripts/**/*.*', 'cli.*'],
+      rules: {
+        'no-console': 'off',
+      },
+    },
+    {
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
   ],
   rules: {
     // import
@@ -83,7 +148,9 @@ module.exports = {
     'import/no-absolute-path': 'off',
 
     // Common
-    semi: ['error', 'never'],
+    'no-unused-labels': 0,
+    'no-labels': 0,
+    semi: 0,
     curly: ['error', 'multi-or-nest', 'consistent'],
     quotes: ['error', 'single'],
     'quote-props': ['error', 'as-needed'],
@@ -103,13 +170,7 @@ module.exports = {
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     indent: 0,
-    'no-restricted-syntax': [
-      'error',
-      'DebuggerStatement',
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    'no-restricted-syntax': 0,
     'no-await-in-loop': 0,
     'unicorn/no-array-for-each': 0,
     'no-spaced-func': 'error',
@@ -200,5 +261,9 @@ module.exports = {
     'unicorn/no-null': 0,
     'no-unused-expressions': 0,
     'unicorn/prevent-abbreviations': 0,
+
+    // yml
+    'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
+    'yml/no-empty-document': 'off',
   },
-};
+}
