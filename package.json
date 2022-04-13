@@ -1,6 +1,6 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-monorepo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "private": true,
   "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
