@@ -17,11 +17,9 @@ module.exports = {
     'import/named': 'off',
 
     // TS
+    '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
-    '@typescript-eslint/ban-ts-comment': [
-      'error',
-      { 'ts-ignore': 'allow-with-description' },
-    ],
+    '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/member-delimiter-style': [
       'error',
       { multiline: { delimiter: 'none' } },
@@ -49,13 +47,7 @@ module.exports = {
       { functions: false, classes: false, variables: true },
     ],
     'brace-style': 'off',
-    '@typescript-eslint/brace-style': [
-      'error',
-      'stroustrup',
-      { allowSingleLine: true },
-    ],
-    'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/brace-style': 'off',
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
 
