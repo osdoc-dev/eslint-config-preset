@@ -1,9 +1,9 @@
 {
   "name": "@osdoc-dev/eslint-config-preset-ts",
   "version": "1.0.2",
-  "main": "index.js",
-  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
+  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
@@ -20,6 +20,6 @@
     "@typescript-eslint/parser": "^5.17.0"
   },
   "devDependencies": {
-    "eslint": "^7.22.0"
+    "eslint": "^8.12.0"
   }
 }

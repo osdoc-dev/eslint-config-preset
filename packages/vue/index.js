@@ -8,6 +8,7 @@ module.exports = {
       },
       rules: {
         'no-unused-vars': 'off',
+        'no-undef': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
       },
     },
@@ -17,8 +18,20 @@ module.exports = {
     '@osdoc-dev/eslint-config-preset-ts',
   ],
   rules: {
-    'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
-    'vue/html-self-closing': 'off',
+    'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
+    'vue/require-prop-types': 'off',
+    'vue/require-default-prop': 'off',
+    'vue/multi-word-component-names': 'off',
+
+    // reactivity transform
+    'vue/no-setup-props-destructure': 'off',
+
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script', 'template', 'style'],
+      },
+    ],
   },
-};
+}
