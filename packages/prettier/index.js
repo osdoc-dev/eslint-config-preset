@@ -9,4 +9,5 @@ module.exports = {
   printWidth: 120,
   arrowParens: 'avoid',
   trailingComma: 'es5',
+  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-imports'],
 }

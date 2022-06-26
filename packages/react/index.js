@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    '@osdoc-dev/eslint-config-preset-ts',
-    'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-  ],
+  extends: ['@osdoc-dev/eslint-config-preset-ts', 'plugin:react/recommended', 'plugin:jsx-a11y/recommended'],
   plugins: ['react', 'react-hooks'],
   settings: {
     react: {
@@ -27,10 +23,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/forbid-prop-types': 0,
     'react/jsx-indent': 0,
-    'react/jsx-wrap-multilines': [
-      'error',
-      { declaration: false, assignment: false },
-    ],
+    'react/jsx-wrap-multilines': ['error', { declaration: false, assignment: false }],
     'react/state-in-constructor': 0,
     'react/jsx-props-no-spreading': 0,
     'react/destructuring-assignment': 0, // TODO: remove later

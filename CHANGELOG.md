@@ -1,73 +1,42 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 0.4.0 (2021-07-15)
 
-
 ### Features
 
-* update lock ([7b51898](https://github.com/osdoc-dev/eslint-config-preset/commit/7b51898e1bb1786ee68af5ed5950eeeb5f47972a))
-
-
-
-
+- update lock ([7b51898](https://github.com/osdoc-dev/eslint-config-preset/commit/7b51898e1bb1786ee68af5ed5950eeeb5f47972a))
 
 ## 0.3.5 (2021-07-15)
 
-
 ### Bug Fixes
 
-* fix bugs ([1839144](https://github.com/osdoc-dev/eslint-config-preset/commit/1839144a7abbac93e3d250087f4cb1e70eeb1ae5))
-
-
-
-
+- fix bugs ([1839144](https://github.com/osdoc-dev/eslint-config-preset/commit/1839144a7abbac93e3d250087f4cb1e70eeb1ae5))
 
 ## 0.3.4 (2021-07-15)
 
-
 ### Bug Fixes
 
-* fix eslint-visitor-keys version ([8176cf1](https://github.com/osdoc-dev/eslint-config-preset/commit/8176cf19f8ebbfd5de6f700c0cb9630ad46346eb))
-
-
-
-
+- fix eslint-visitor-keys version ([8176cf1](https://github.com/osdoc-dev/eslint-config-preset/commit/8176cf19f8ebbfd5de6f700c0cb9630ad46346eb))
 
 ## 0.3.3 (2021-07-15)
 
-
 ### Bug Fixes
 
-* fix jsonc-eslint-parser version to v1.0.0 ([9cc810b](https://github.com/osdoc-dev/eslint-config-preset/commit/9cc810b90d18e2ead2b160ccf20a447dd8b43b84))
-
-
-
-
+- fix jsonc-eslint-parser version to v1.0.0 ([9cc810b](https://github.com/osdoc-dev/eslint-config-preset/commit/9cc810b90d18e2ead2b160ccf20a447dd8b43b84))
 
 ## 0.3.2 (2021-07-14)
 
-
 ### Bug Fixes
 
-* fix jsonc-eslint-parser version ([07731f5](https://github.com/osdoc-dev/eslint-config-preset/commit/07731f5341149ce25dd45f3138bebb03908b79ee))
-
-
-
-
+- fix jsonc-eslint-parser version ([07731f5](https://github.com/osdoc-dev/eslint-config-preset/commit/07731f5341149ce25dd45f3138bebb03908b79ee))
 
 ## 0.3.1 (2021-07-08)
 
-
 ### Bug Fixes
 
-* fix commit ([7f613f0](https://github.com/osdoc-dev/eslint-config-preset/commit/7f613f05f75b873b4eb12fd578c120064eb45a43))
-
-
-
-
+- fix commit ([7f613f0](https://github.com/osdoc-dev/eslint-config-preset/commit/7f613f05f75b873b4eb12fd578c120064eb45a43))
 
 # [0.3.0](https://github.com/osdoc-dev/lint-preset/compare/v0.2.3...v0.3.0) (2021-07-08)
 

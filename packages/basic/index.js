@@ -1,3 +1,5 @@
+require('./ts-check').checkTs()
+
 module.exports = {
   env: {
     es6: true,
@@ -55,53 +57,6 @@ module.exports = {
       },
     },
     {
-      files: ['package.json'],
-      parser: 'jsonc-eslint-parser',
-      rules: {
-        'jsonc/sort-keys': [
-          'error',
-          {
-            pathPattern: '^$',
-            order: [
-              'name',
-              'type',
-              'version',
-              'private',
-              'packageManager',
-              'description',
-              'keywords',
-              'license',
-              'author',
-              'repository',
-              'funding',
-              'main',
-              'module',
-              'types',
-              'unpkg',
-              'jsdelivr',
-              'exports',
-              'files',
-              'bin',
-              'sideEffects',
-              'scripts',
-              'peerDependencies',
-              'peerDependenciesMeta',
-              'dependencies',
-              'optionalDependencies',
-              'devDependencies',
-              'husky',
-              'lint-staged',
-              'eslintConfig',
-            ],
-          },
-          {
-            pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
-            order: { type: 'asc' },
-          },
-        ],
-      },
-    },
-    {
       files: ['*.d.ts'],
       rules: {
         'import/no-duplicates': 'off',
@@ -150,6 +105,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'import/no-named-as-default-member': 'off',
 
     // Common
     semi: ['error', 'never'],
@@ -171,17 +127,8 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    indent: [
-      'error',
-      2,
-      { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 },
-    ],
-    'no-restricted-syntax': [
-      'error',
-      'DebuggerStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    'no-restricted-syntax': ['error', 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
 
@@ -292,12 +239,8 @@ module.exports = {
       },
     ],
 
-    'no-use-before-define': [
-      'error',
-      { functions: false, classes: false, variables: true },
-    ],
+    'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'eslint-comments/disable-enable-pair': 'off',
-    'import/no-named-as-default-member': 'off',
     'n/no-callback-literal': 'off',
 
     'sort-imports': [

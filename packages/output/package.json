@@ -2,23 +2,21 @@
   "name": "@osdoc-dev/eslint-config-preset",
   "version": "1.0.4",
   "description": "lint preset",
-  "main": "index.js",
-  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
   "license": "MIT",
+  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "dependencies": {
     "@osdoc-dev/eslint-config-preset-react": "workspace:*",
     "@osdoc-dev/eslint-config-preset-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
@@ -33,6 +31,9 @@
   },
   "devDependencies": {
     "eslint": "^8.12.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public"

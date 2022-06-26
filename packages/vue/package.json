@@ -7,17 +7,17 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@osdoc-dev/eslint-config-preset-ts": "workspace:*",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
     "eslint": "^8.12.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
