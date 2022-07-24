@@ -9,5 +9,5 @@ module.exports = {
   printWidth: 120,
   arrowParens: 'avoid',
   trailingComma: 'es5',
-  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-imports'],
+  plugins: [require.resolve('prettier-plugin-packagejson'), require.resolve('prettier-plugin-organize-imports')],
 }
